@@ -1,0 +1,26 @@
+
+
+body {
+    --main-color: lightblue;
+    --main-border-color: blue;
+   
+    --secondary-color: teal;
+    --secondary-border-color: steelblue;
+   
+    overflow: hidden;
+}
+
+.body-text-style{
+    font-family: 'Montserrat';
+    font-weight: 300;   
+}
+
+.primary-color{
+    border: 2px solid var(--main-border-color);
+    background-color: var(--main-color);
+}
+
+.secondary-color{
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-border-color);
+}
