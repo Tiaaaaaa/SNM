@@ -9,7 +9,6 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/search.css">
-    <script src="/scripts/search.js"></script>
 
 </head>
 
@@ -32,13 +31,14 @@
 
     <div class="container">
         <div id="search-area">
-            <input type="text" placeholder="search" id="search-bar" class="main-text-style">
-            <button onclick="loadResults()" class="body-text-style"> Search </button>
+            <input type="text" placeholder="search" id="search-bar" class="main-text-style" onkeyup="loadResults()">
         </div>
 
         <div id="result-area" class="primary-color body-text-style"></div>
 
     </div>
+    <script src="/scripts/search.js"></script>
 </body>
+
 
 </html>
