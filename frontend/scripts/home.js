@@ -1,4 +1,4 @@
-let friends = ["io", "tu", "egli", "Un nome decisamente più lungo"];
+let friends = ["io", "tu", "egli", "Un nome decisamente più lungo", "unnomemediounito"];
 
 function loadFriends() {
     let div = document.getElementById("friends");
@@ -22,4 +22,32 @@ function loadFriends() {
 
         div.append(toAppend);
     })
+}
+
+function loadFollowedActivity() {
+
+    let div = document.getElementById("center");
+
+    friends.forEach(name => {
+        toAppend = document.createElement("div");
+
+        toAppend.classList.add("tile");
+
+        toAppend.innerHTML = name;
+
+        div.append(toAppend);
+
+    });
+
+    for (let i = 0; i < 10; i++) {
+        toAppend = document.createElement("div");
+
+        toAppend.classList.add("tile");
+
+        toAppend.innerHTML = "name";
+
+        div.append(toAppend);
+    }
+
+
 }

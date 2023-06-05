@@ -1,11 +1,11 @@
 .test {
+	display: flex;
+	flex-direction: column;
 	background-color: var(--secondary-color);
 	border: 2px solid var(--secondary-border-color);
 	border-radius: 10px;
 	margin: 10px;
 	height: 90vh;
-	display: flex;
-	flex-direction: column;
 }
 
 .menu-tile {
@@ -19,10 +19,11 @@
 	padding-bottom: 10px;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: black;
 }
+
 #menu {
 	width: 5vw;
 	transition: 0.3s linear;
@@ -55,7 +56,7 @@ a{
 
 .friend-tile p {
 	opacity: 0;
-	transition-delay: 0.3s;
+	transition-delay: 0.1s;
 	transition-duration: 0.1s;
 }
 
@@ -83,4 +84,27 @@ a{
 	max-width: 40px;
 	height: auto;
 	margin-right: 20px;
+}
+
+#center{
+	flex-direction: row;
+	overflow: auto;
+	flex-wrap: wrap;
+}
+
+.tile {
+	display: flex;
+	justify-content: center;
+	align-items: center	;
+	margin: 1%;
+	width: 18%;
+	height: 30vh;
+	background-color: #fff;
+	border-radius: 5px;
+	transition: 0.1s linear;
+}
+
+.tile:hover{
+	border-radius: 20px;
+	background-color: #ddd;
 }
