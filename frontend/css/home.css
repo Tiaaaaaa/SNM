@@ -19,11 +19,6 @@
 	padding-bottom: 10px;
 }
 
-a {
-	text-decoration: none;
-	color: black;
-}
-
 #menu {
 	width: 5vw;
 	transition: 0.3s linear;
