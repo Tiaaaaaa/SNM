@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/search.css">
+
+</head>
+
+<body>
+
+    <div id="main-menu" class="body-text-style">
+        <a href="/home">
+            <div class="menu-tile" id="home">Home</div>
+        </a>
+        <a href="/search">
+            <div class="menu-tile" id="search">Search</div>
+        </a>
+        <a href="/profile">
+            <div class="menu-tile" id="profile">Profile</div>
+        </a>
+        <a href="/library">
+            <div class="menu-tile" id="library">My library</div>
+        </a>
+    </div>
+
+    <div class="container">
+        <div id="search-area">
+            <input type="text" placeholder="search" id="search-bar" class="main-text-style" onkeyup="loadResults()">
+        </div>
+
+        <div id="result-area" class="primary-color body-text-style"></div>
+
+    </div>
+    <script src="/scripts/search.js"></script>
+</body>
+
+
+</html>
