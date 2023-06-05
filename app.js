@@ -1,16 +1,14 @@
 const path = require('path');
 
 const express = require('express');
-
 app = express();
 
 const port = 3000;
 
-app.use(express.static(path.join(__dirname, "/frontend")));
+require(path.join(__dirname, "/frontend/routing.js"));
 
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "frontend/pages/login.html"));
-});
+
+app.use(express.static(path.join(__dirname, "/frontend")));
 
 /**
  * Log alla console del server per il "tutto okay"
