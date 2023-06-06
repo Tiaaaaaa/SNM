@@ -8,26 +8,6 @@
 	height: 90vh;
 }
 
-.menu-tile {
-	display: flex;
-	justify-content: center;
-	width: 80%;
-	background-color: var(--main-color);
-	border: 2px solid var(--main-border-color);
-	padding: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#menu {
-	width: 5vw;
-	transition: 0.3s linear;
-}
-
-#menu:hover {
-	width: 25vw;
-}
-
 #center {
 	width: 90vw;
 }
@@ -117,30 +97,5 @@ button {
 }
 
 button:hover {
-	background-color: #ddd;
-}
-
-.tile {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-items: center;
-	margin: 1%;
-	width: 18%;
-	height: 30vh;
-	border-radius: 5px;
-	transition: 0.1s linear;
-}
-
-.list {
-	height: 10vh !important;
-}
-
-.tile:hover {
-	height: 10vh !important;
-}
-
-.tile:hover {
-	border-radius: 20px;
 	background-color: #ddd;
 }

@@ -52,7 +52,6 @@ function loadFollowedActivity() {
 
 }
 
-
 function switchToTile() {
     let divList = document.getElementsByClassName("tile");
     console.log(divList);
@@ -63,7 +62,6 @@ function switchToTile() {
         el.classList.remove("list");
     }
 }
-
 
 function switchToList() {
     let divList = document.getElementsByClassName("tile");
