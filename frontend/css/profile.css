@@ -1,0 +1,51 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#upper-pan {
+    display: flex;
+    margin-top: 5vh;
+    width: 80%;
+}
+
+#propic {
+    height: 200px;
+    width: 200px;
+}
+
+#propic img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 40%;
+}
+
+#playlists {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    width: 90vw;
+    height: 80vh;
+    overflow: auto;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+button {
+    border: none;
+    background: none;
+    transition: 0.1s linear;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#bar {
+    width: 100%;
+    height: 3vh;
+    background-color: #fff;
+}
