@@ -13,7 +13,10 @@
 }
 
 #friends {
-	width: 5vw;
+	background-color: var(--secondary-color);
+	border-left: 10px solid var(--secondary-border-color);
+	right: 0;
+	width: 10px;
 	transition: 0.3s linear;
 }
 
