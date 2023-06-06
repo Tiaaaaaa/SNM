@@ -5,6 +5,8 @@ body {
     --secondary-color: teal;
     --secondary-border-color: steelblue;
 
+    --evidenced: #7091de;
+
     overflow: hidden;
     background-color: var(--main-color);
 }
@@ -62,29 +64,60 @@ a {
     color: black;
 }
 
-#main-menu {
-    position: absolute;
+.main-menu {
     left: 0;
+    border-right: 10px solid var(--secondary-border-color);
+}
+
+.main-menu .current {
+    background-color: var(--secondary-border-color);
+}
+
+.side-menu {
+    position: absolute;
     top: 0;
     height: 100%;
     width: 10px;
     background-color: var(--secondary-color);
     transition: 0.1s linear;
-    border-right: 10px solid var(--secondary-border-color);
     padding-left: 10px;
     padding-top: 20px;
 }
 
-#main-menu * {
+.side-menu * {
     opacity: 0;
     transition: 0.1s ease-out;
     margin-top: 5px;
 }
 
-#main-menu:hover {
+.side-menu:hover {
     width: 10vw;
 }
 
-#main-menu:hover * {
+.side-menu:hover * {
     opacity: 1;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin: 1%;
+    width: 18%;
+    height: 30vh;
+    border-radius: 5px;
+    transition: 0.1s linear;
+    background-color: #fff;
+}
+
+.list {
+    width: 100%;
+    height: 5vh;
+    margin: 0.2%;
+}
+
+.tile:hover {
+    border-radius: 20px;
+    background-color: #ddd;
 }

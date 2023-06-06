@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/profile.css">
+
+    <script src="/scripts/profile.js"></script>
+
+</head>
+
+<body onload="loadPlaylists()">
+
+    <div class="body-text-style side-menu main-menu">
+        <a href="/home">
+            <div class="menu-tile" id="home">Home</div>
+        </a>
+        <a href="/search">
+            <div class="menu-tile" id="search">Search</div>
+        </a>
+        <a href="/profile">
+            <div class="menu-tile current" id="profile">Profile</div>
+        </a>
+        <a href="/library">
+            <div class="menu-tile" id="library">My library</div>
+        </a>
+    </div>
+
+    <div class="container">
+        <div id="upper-pan">
+            <div id="propic">
+                <img src="https://mymodernmet.com/wp/wp-content/uploads/2018/10/Mou-Aysha-portrait-photography-3.jpg">
+            </div>
+            <p class="body-text-style">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, </p>
+        </div>
+        <div id="playlists">
+            <div id="bar">
+                <button id="tileBtn" onclick="switchToTile()">
+                    <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/medium-icons.png"
+                        alt="medium-icons" />
+                </button>
+                <button id="listBtn" onclick="switchToList()">
+                    <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/list.png" alt="list" />
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
