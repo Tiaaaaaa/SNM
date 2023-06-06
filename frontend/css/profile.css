@@ -49,3 +49,18 @@ button:hover {
     height: 3vh;
     background-color: #fff;
 }
+
+#playlist-saves {
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+#infos {
+    padding-left: 100px;
+}
+
+#name {
+    font-size: 8vh;
+
+}
