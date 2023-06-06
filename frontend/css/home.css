@@ -104,9 +104,26 @@ button:hover {
 	background-color: #ddd;
 }
 
+#bar {
+	width: 100%;
+	height: 3vh;
+	background-color: #fff;
+}
+
+button {
+	border: none;
+	background: none;
+	transition: 0.1s linear;
+}
+
+button:hover {
+	background-color: #ddd;
+}
+
 .tile {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	align-items: center;
 	margin: 1%;
 	width: 18%;
@@ -116,6 +133,10 @@ button:hover {
 }
 
 .list {
+	height: 10vh !important;
+}
+
+.tile:hover {
 	height: 10vh !important;
 }
 
