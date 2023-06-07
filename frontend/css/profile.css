@@ -5,6 +5,7 @@
 
 #upper-pan {
     display: flex;
+    align-items: center;
     margin-top: 5vh;
     width: 80%;
 }
@@ -19,6 +20,11 @@
     width: inherit;
     object-fit: cover;
     border-radius: 40%;
+    transition: 0.1s linear;
+}
+
+#propic img:hover {
+    border-radius: 5%;
 }
 
 #playlists {
@@ -61,6 +67,5 @@ button:hover {
 }
 
 #name {
-    font-size: 8vh;
-
+    font-size: 5vh;
 }
