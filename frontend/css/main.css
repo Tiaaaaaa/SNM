@@ -64,12 +64,12 @@ a {
     color: black;
 }
 
-.main-menu {
+#main-menu {
     left: 0;
     border-right: 10px solid var(--secondary-border-color);
 }
 
-.main-menu .current {
+#main-menu .current {
     background-color: var(--secondary-border-color);
 }
 

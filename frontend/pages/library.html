@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -8,37 +8,29 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/search.css">
+    <link rel="stylesheet" href="/css/library.css">
 
 </head>
 
 <body>
-
     <div class="body-text-style side-menu" id="main-menu">
         <a href="/home">
             <div class="menu-tile" id="home">Home</div>
         </a>
         <a href="/search">
-            <div class="menu-tile current" id="search">Search</div>
+            <div class="menu-tile" id="search">Search</div>
         </a>
         <a href="/profile">
             <div class="menu-tile" id="profile">Profile</div>
         </a>
         <a href="/library">
-            <div class="menu-tile" id="library">My library</div>
+            <div class="menu-tile current" id="library">My library</div>
         </a>
     </div>
 
     <div class="container">
-        <div id="search-area">
-            <input type="text" placeholder="search" id="search-bar" class="main-text-style" onkeyup="loadResults()">
-        </div>
-
-        <div id="result-area" class="primary-color body-text-style"></div>
-
+        
     </div>
-    <script src="/scripts/search.js"></script>
 </body>
-
 
 </html>

@@ -16,3 +16,7 @@ app.get("/search", (req, res) => {
 app.get("/profile/:id", (req, res) => {
     res.sendFile(path.join(__dirname, "/pages/profile.html"));
 });
+
+app.get("/library", (req, res) => {
+    res.sendFile(path.join(__dirname, "/pages/library.html"));
+});
