@@ -121,3 +121,8 @@ a {
     border-radius: 20px;
     background-color: #ddd;
 }
+
+.playlist{
+    width: 100%;
+    margin-top: 1vh;
+}
